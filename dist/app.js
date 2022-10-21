@@ -12,7 +12,7 @@ const app = (0, express_1.default)();
 const port = process.env.PORT || 3000;
 app.use(compression());
 app.use(cors());
-app.get('/v1/video', async (req, res) => {
+app.get('/vivek', async (req, res) => {
     try {
         const url = req.query.url;
         const cliOptions = req.query.options;
